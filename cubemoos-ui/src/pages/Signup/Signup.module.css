@@ -1,0 +1,63 @@
+.wrapper {
+  display: flex;
+  min-height: calc(100vh - 140px); /* navbar + footer space */
+}
+
+.left {
+  flex: 1;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h2 {
+  margin-bottom: 10px;
+}
+
+.right p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.right input {
+  margin-bottom: 12px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.createBtn {
+  background: #db4444;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.googleBtn {
+  margin-top: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.googleBtn img {
+  width: 18px;
+}
+
+.loginText {
+  margin-top: 20px;
+}

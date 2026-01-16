@@ -1,0 +1,95 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 60px 80px 30px;
+  font-size: 14px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 6px 0;
+  color: #ccc;
+  cursor: pointer;
+}
+
+span {
+  color: #aaa;
+  font-size: 13px;
+}
+
+/* SUBSCRIBE */
+.subscribe {
+  margin-top: 15px;
+  display: flex;
+  border: 1px solid #555;
+}
+
+.subscribe input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+  outline: none;
+}
+
+.subscribe button {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+/* STORE */
+.store {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.store img {
+  width: 90px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+/* SOCIAL */
+.social {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.social svg {
+  cursor: pointer;
+}
+
+/* BOTTOM */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 30px 0 15px;
+}
+
+.copy {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+}

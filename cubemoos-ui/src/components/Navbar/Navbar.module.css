@@ -1,0 +1,29 @@
+/*.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.signupBtn {
+  background: #db4444;
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 4px;
+}*/

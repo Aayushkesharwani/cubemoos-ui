@@ -1,0 +1,174 @@
+.flash {
+  padding: 40px 60px;
+  background: #fff;
+}
+
+/* Header */
+.top {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.today {
+  display: inline-block;
+  width: 20px;
+  height: 40px;
+  background: #db4444;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.top h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Timer */
+.timer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.timer div {
+  text-align: center;
+}
+
+.timer p {
+  font-size: 12px;
+  color: #555;
+}
+
+.timer h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.timer span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Arrows */
+.arrows {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.arrows svg {
+  background: #f5f5f5;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  position: relative;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;
+  object-fit: contain;
+}
+
+/* Discount */
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #db4444;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* Icons */
+.icons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.icons svg {
+  background: #fff;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Add to cart */
+.cartBtn {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover .cartBtn {
+  opacity: 1;
+}
+
+/* Text */
+.card h4 {
+  font-size: 14px;
+  margin: 12px 0;
+}
+
+.price {
+  color: #db4444;
+  font-weight: 600;
+}
+
+.price span {
+  margin-left: 8px;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.rating {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  color: #ffad33;
+  font-size: 13px;
+}
+
+.rating span {
+  color: #555;
+}
+
+/* View button */
+.viewBtn {
+  background: #db4444;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
