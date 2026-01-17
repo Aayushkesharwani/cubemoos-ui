@@ -13,6 +13,8 @@ import styles from "./Home.module.css";
 const Home = () => {
   return (
     <>
+    <h1>Welcome to Cubemoos UI</h1>
+
       {/* HERO SECTION WITH SIDEBAR */}
       <div className={styles.heroWrapper}>
         <CategoriesSidebar />
